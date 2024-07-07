@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Modular HTML and CSS Training</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="header text__center">
+      <div class="container">
+        <h1 class="header__primary">Company Name</h1>
+        <nav>
+          <ul class="nav__list">
+            <li class="nav__list-el">
+              <a class="nav__list-el-link" href="#home">Home</a>
+            </li>
+            <li class="nav__list-el">
+              <a class="nav__list-el-link" href="#services">Services</a>
+            </li>
+            <li class="nav__list-el">
+              <a class="nav__list-el-link" href="#about">About</a>
+            </li>
+            <li class="nav__list-el">
+              <a class="nav__list-el-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <section class="container section text__center">
+      <h2 class="heading__sec">Welcome to Our Website</h2>
+      <p class="text">This is the home section.</p>
+    </section>
+
+    <section class="container section text__center">
+      <h2 class="heading__sec">Our Services</h2>
+      <div class="services-grid">
+        <div class="service">
+          <h3 class="heading__h3">Web Design</h3>
+          <p class="text">
+            Beautiful and responsive web designs tailored to your needs.
+          </p>
+        </div>
+
+        <div class="service">
+          <h3 class="heading__h3">Development</h3>
+          <p class="text">
+            Full-stack web development solutions using modern technologies.
+          </p>
+        </div>
+
+        <div class="service">
+          <h3 class="heading__h3">SEO Optimization</h3>
+          <p class="text">
+            Boost your online presence with our SEO strategies.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="container section text__center">
+      <h2 class="heading__sec">About Us</h2>
+      <p class="text">Learn about our team and our mission.</p>
+    </section>
+
+    <section class="container section text__center">
+      <h2 class="heading__sec">Contact Us</h2>
+      <form class="contact-form">
+        <label for="name">Name:</label>
+        <input id="name" type="text" name="name" required />
+        <label for="email">Email:</label>
+        <input id="email" type="email" name="email" required />
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+        <button class="btn" type="submit">Send Message</button>
+      </form>
+    </section>
+
+    <footer class="footer text__center">
+      <div class="container">
+        <p>&copy; 2024 Company Name. All rights reserved.</p>
+      </div>
+    </footer>
+  </body>
+</html>
